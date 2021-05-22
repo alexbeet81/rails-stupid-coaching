@@ -1,0 +1,33 @@
+<!-- <div class="answer">
+  <%= @answer %>
+  <p>-You</p>
+</div>
+
+<div class="coach">
+  <%= @coach %>
+  <p>-Your coach</p>
+</div> -->
+<div class="container">
+  <div class="question-answer">
+    <img src="https://images.unsplash.com/photo-1607283455867-3c1dc4166f26?ixid=MnwxMjA3fDB8MHxzZWFyY2h8NDJ8fHBvcnRyYWl0JTIwYnVzaW5lc3N8ZW58MHwyfDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60" />
+    <div class="question-answer-text">
+      <h2><%= @answer %></h2>
+      <p>- You</p>
+    </div>
+  </div>
+
+  <div class="question-answer coach">
+    <img src="https://images.unsplash.com/photo-1595399874399-10f2444c4eb2?ixid=MnwxMjA3fDB8MHxzZWFyY2h8NDV8fHBvcnRyYWl0JTIwYnVzaW5lc3N8ZW58MHwyfDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60" />
+    <div class="question-answer-text">
+      <h2><%= @coach %></h2>
+      <p>- Your coach</p>
+    </div>
+  </div>
+  <div class="link">
+    <%= link_to "Ask a new question", ask_path %>
+  </div>
+</div>
+
+
+
+
